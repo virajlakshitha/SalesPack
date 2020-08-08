@@ -12,10 +12,10 @@ function App() {
     <div className="App">
       <Header/>
       <Row>
-        <Col lg={3}>
+        <Col sm="auto">
           <LeftPanel/>
         </Col>
-        <Col lg={9}>
+        <Col sm={10}>
           <Pages/>
         </Col>
       </Row>
